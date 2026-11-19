@@ -1,0 +1,16 @@
+/build/
+/local/
+__pycache__/
+*.pyc
+*.rom
+*.zip
+/release/*.pdf
+/docs/manual/*.aux
+/docs/manual/*.log
+/docs/manual/*.out
+/docs/manual/*.toc
+/docs/manual/img/cover.jpg
+/docs/manual/img/cover-shot.png
+/docs/manual/img/hud.png
+/docs/manual/img/sticker.png
+/docs/manual/img/title.png

@@ -1,0 +1,17 @@
+% Facts about the game. Edit this file; manual.tex and the lang files read it.
+\newcommand{\gameTitle}{Commando}
+\newcommand{\originalPublisher}{Capcom}
+\newcommand{\originalYear}{1985}
+\newcommand{\portAuthor}{DiHalt Studio}
+\newcommand{\portYear}{2026}
+\newcommand{\portVersion}{1.0}
+\newcommand{\accentRGB}{196,40,32}      % accent colour of headings (R,G,B), taken from the cover
+\newcommand{\romKind}{2~MiB ASCII16 MegaROM}   % mapper and size
+\newcommand{\ramNeeded}{64~KB}
+\newcommand{\portWork}{display engine, sound for MoonSound, tools, cover conversion}  % what the port author did (EN)
+\newcommand{\portWorkES}{motor de v\'ideo, sonido para MoonSound, herramientas, conversi\'on de la portada}
+% The game is a cartridge (ROM): the manual ends with a printable cartridge label.
+% Games on disk (MSX-DOS, floppy, hard disk, SD; usually MSX2 / turbo R) have no
+% label: \cartridgefalse (new_manual.py --media disk writes it).
+\newif\ifcartridge
+\cartridgetrue

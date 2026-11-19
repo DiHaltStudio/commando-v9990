@@ -1,0 +1,67 @@
+{
+  "cover": "local/cover.png",
+  "title": "docs/img/manual-title.png",
+  "montage": [
+    "docs/img/manual-drop.png",
+    "docs/img/manual-area1.png",
+    "docs/img/manual-area2.png",
+    "docs/img/manual-fortress.png",
+    "docs/img/manual-portrait.png",
+    "docs/img/manual-title.png"
+  ],
+  "huds": [
+    {
+      "name": "hud",
+      "src": "docs/img/manual-hud.png",
+      "box": [
+        44,
+        6,
+        276,
+        230
+      ],
+      "labels": [
+        [
+          1,
+          82,
+          20
+        ],
+        [
+          2,
+          165,
+          20
+        ],
+        [
+          3,
+          62,
+          215,
+          "b"
+        ],
+        [
+          4,
+          140,
+          215,
+          "b"
+        ],
+        [
+          5,
+          258,
+          213,
+          "b"
+        ]
+      ]
+    }
+  ],
+  "label": {
+    "lines": [
+      "COMMANDO",
+      "MSX turbo R only"
+    ],
+    "crop": [
+      0,
+      0,
+      928,
+      444
+    ],
+    "credit": "CAPCOM 1985 · V9990 PORT: DIHALT STUDIO 2026"
+  }
+}

@@ -8,7 +8,7 @@ An unofficial homage port by **DiHalt Studio**, 2026.
 
 ## Play it
 
-Version 1.0 comes as a **2 MiB ASCII16 MegaROM**. Use an MSX turbo R, a V9990 graphics cartridge and a flash cartridge that supports ASCII16. Connect audio to a MoonSound or Wozblaster for FM music and PCM effects. The first startup messages appear on the MSX video output. The game appears on the V9990 output. [Download v1.0](https://github.com/nwlg/commando-v9990/releases/tag/v1.0).
+Version 1.0 comes as a **2 MiB ASCII16 MegaROM**. Use an MSX turbo R, a V9990 graphics cartridge and a flash cartridge that supports ASCII16. Connect audio to a MoonSound or Wozblaster for FM music and PCM effects. The first startup messages appear on the MSX video output. The game appears on the V9990 output. [Download v1.0](https://github.com/DiHaltStudio/commando-v9990/releases/tag/v1.0).
 
 - [English user manual](docs/manual/manual-en.pdf)
 - [Manual en español](docs/manual/manual-es.pdf)
@@ -43,7 +43,7 @@ The port adapts the arcade program to the turbo R and draws the game in V9990 P1
 ## Building from source
 
 ```sh
-git clone https://github.com/nwlg/commando-v9990.git
+git clone https://github.com/DiHaltStudio/commando-v9990.git
 cd commando-v9990
 python3 -m venv build/venv
 build/venv/bin/pip install -r requirements-build.txt

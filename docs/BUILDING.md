@@ -26,7 +26,7 @@ The expected digests are in [arcade-inputs.sha256](../assets/arcade-inputs.sha25
 
 ## Cover picture
 
-For the same cover as v1.0, download the [MSX cartridge](https://github.com/nwlg/commando-v9990/releases/tag/v1.0) and save it as `release/commando_v9990.rom`. Use `BASE_ROM=/path/to/commando_v9990.rom` to read it elsewhere. The builder takes only the 512×424 RGB332 picture from that file. It builds the program, sound and game graphics from the repository and the supplied arcade inputs.
+For the same cover as v1.0, download the [MSX cartridge](https://github.com/DiHaltStudio/commando-v9990/releases/tag/v1.0) and save it as `release/commando_v9990.rom`. Use `BASE_ROM=/path/to/commando_v9990.rom` to read it elsewhere. The builder takes only the 512×424 RGB332 picture from that file. It builds the program, sound and game graphics from the repository and the supplied arcade inputs.
 
 To build with your own cover, pass `COVER_ART=/path/to/cover.png` or put it at `local/cover.png`. The builder scales it to 424 lines, centers it within 512 pixels and converts it to RGB332. For the full-size illustration and cartridge label in the PDFs, `make manual` reads the local cover image.
 
